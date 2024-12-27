@@ -1,0 +1,155 @@
+.carousel-item img {
+    width:100%;
+    object-fit:cover;
+    height:600px;
+}
+
+@media(max-width:768px) {S
+    .carousel-item img{
+        height:250px;
+    }
+    
+}
+
+.custom-btn {
+    background-color: rgb(222, 167, 26);
+    color: white;
+    border-color: rgb(222, 167, 26);
+    font-weight: 600;
+}
+
+.custom-btn hover {
+    background-color: rgb(136, 111, 47);
+}
+
+.navbar-custom {
+    background-color: #0e3b1b; 
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ebcd6a;
+}
+
+.navbar-custom .active {
+    color: #e6de94 !important; 
+}
+.footer-custom {
+    background-color: #092208;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-custom a {
+    color: #f0eee8;
+    text-decoration: none;
+}
+
+.footer-custom a:hover {
+    color: #080804;
+    text-decoration: underline;
+}
+.card {
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.img-del{
+    width: 100%;
+}
+.sub{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #1a8b25;
+        color: #fff;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+.container1 {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f0e8d1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    color: #0e4226;
+}
+form {
+    margin-top: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #1e320e;
+}
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-details {
+    margin-top: 30px;
+}
+.contact-details h3 {
+    color: #072606;
+}
+.contact-details p {
+    margin: 5px 0;
+    color: #1f380e;
+}
+.contact-details a {
+    color: #bc8f13;
+    text-decoration: none;
+}
+.contact-details a:hover {
+    text-decoration: underline;
+}
+.bgimg{
+    background-image:url("https://media.istockphoto.com/id/511119416/photo/indian-landmark-gadi-sagar-in-rajasthan.jpg?s=612x612&w=0&k=20&c=dO7TbXh3sd6_QmgcF_nYi6ynyIAvPI5STavwzCDyWTI=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+    height:100v;
+    justify-content: center;
+    display: flex;
+    padding: auto;
+  }
+
+.dbody{
+    background-image:url("https://media.istockphoto.com/id/505239248/photo/humayun-tomb-new-delhi-india.jpg?s=612x612&w=0&k=20&c=UQTU6YOnVsSklzHi34cOhNW5AhsACDxKLiD9--T-3Kg=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+    height:100v;
+    justify-content: center;
+    display: flex;
+    padding: auto;
+
+
+}
